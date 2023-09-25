@@ -52,3 +52,5 @@ tab1.checkbox("Back Extensions")
 col1_tab1, col2_tab1 = tab1.columns(2)
 col1_tab1.number_input("Sets", 0, 15,key = "Back")
 col2_tab1.number_input("Reps", 0, 10,key = "Back2")
+
+tab1.button("Store")
